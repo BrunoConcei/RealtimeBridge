@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="generator" content="">
+    <meta name="dcterms.created" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="Expires" content="Mon, 26 Jul 2015 05:00:00 GMT">
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>Real-time Structural Health Monitoring</title>
+
+
+
+    <style type="text/css">
+        <!-- body {
+            color: #FFFFFF;
+            background-color: #007FFF;
+            background-image: url('Background Image');
+            background-repeat: no-repeat;
+        }
+        
+        a {
+            color: #dddddd;
+        }
+        
+        --> h1 {
+            text-align: center
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            left: 11%;
+        }
+        
+        li {
+            font-size: 150%;
+            display: inline;
+        }
+        
+        div.body {
+            position: relative;
+            left: 11%;
+            width: 80%;
+        }
+        
+        div.img {
+            position: relative;
+            top: auto;
+            padding: 5px;
+            border: 1px solid #0000ff;
+            height: auto;
+            width: auto;
+            float: left;
+            text-align: center;
+        }
+        
+        img.middle {
+            vertical-align: middle;
+        }
+    </style>
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+    <h1>Real-time Strucutral Health Monitoring</h1>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="BridgeInfo.html">Bridge Condition</a></li>
+        <li><a href="DownloadData.html">Download Data</a></li>
+        <li><a href="About.html">About</a></li>
+    </ul>
+
+    <div class="body">
+        <h2>Real-time Bridge Condition</h2>
+        <a href="BridgeInfo.html">
+            <div class="img">
+                <img src="image/PMB.jpg" alt="Powder Mill Bridge" style="width:304px;height:228px;">
+                <br>Powder Mill Bridge
+                <br>Condition:
+                <script language="javascript" type="text/javascript">
+                    setInterval(function () {
+                        var myImageElement = document.getElementById('condition');
+                        myImageElement.src = 'condition.png?rand=' + Math.random();
+                    }, 1000);
+                </script>
+
+                <img class="middle" src="condition.png" id="condition" style=";width:20px;height:20px;">
+            </div>
+        </a>
+        <a href="#mock">
+            <div class="img">
+                <img src="image/Mock.jpg" alt="Mock Bridge" style="width:304px;height:228px;">
+                <br>Mock Bridge
+                <br>Condition:
+                <img class="middle" src="green.png" style="width:20px;height:20px;">
+            </div>
+        </a>
+    </div>
+
+</body>
+
+</html>
