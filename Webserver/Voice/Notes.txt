@@ -1,0 +1,6 @@
+there are three ways to generate text to speech feature.
+1. run.py and open the firewall with ngrok. this required every time to modify the message in run.py and rerun it.
+
+2. use http://twimlets.com/message? for automatic query the message content. the problem with it is it can't change the voice which result to a not clear voice.
+
+3. use twimlbin.com to pre-set up a message, just call that url. the problem is we can't change the content with a new message.

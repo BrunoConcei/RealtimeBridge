@@ -5,7 +5,7 @@ import time
 from requests.auth import HTTPDigestAuth
 
 # the server url location
-url = "http://130.64.82.124:8080/cgi-bin/Server1.py"
+url = "http://130.64.82.124:8080/cgi-bin/Server.py"
 
 # upload directory
 UploadDirectory = "C:/Users/zzhao01/Documents/Client/Upload/"
